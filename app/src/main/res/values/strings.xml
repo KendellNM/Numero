@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Numero</string>
     <string name="hint_numero">Ingrese un número</string>
-    <string name="btn_resolver">Resolver</string>
+    <string name="btn_resolver">Calcular</string>
 </resources>

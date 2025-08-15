@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     Double numeroD = convertirDouble(numero);
                     Double raiz = raizCuadrada(numeroD);
-                    respuesta.setText("La raíz es: " + String.valueOf(raiz));
+                    respuesta.setText("La raíz es: " + String.format("%.3f",raiz));
                 }catch (NumberFormatException e) {
                     Toast.makeText(getApplicationContext(), "Ingrese un número válido", Toast.LENGTH_LONG).show();
                 }
